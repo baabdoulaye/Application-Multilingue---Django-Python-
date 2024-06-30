@@ -1,0 +1,18 @@
+-----------------------------------INSTALLER DJANGO ----------------------------------------
+- python.exe -m pip install --upgrade pip       
+-----------------------------------CREER PROJET DJANGO ----------------------------------------
+- django-admin startproject Multilang_site  
+-----------------------------------ME PLACER DANS LE PROJET ----------------------------------------
+- cd Main
+-----------------------------------IMPORTER LES DEPENDANCES  ----------------------------------------
+- python manage.py migrate 
+-----------------------------------LANCER LE SERVEUR ----------------------------------------
+- commande : python manage.py runserver
+----------------------------------- ACCEDER A L'INTERFACE ADMIN ----------------------------------------
+- url pour accéder à l'admin : http://127.0.0.1:8000/admin
+----------------------------------- CREER LE MOT DE PASSE ET LE NOM DE L'ADMIN ----------------------------------------
+- pour créer un admin : python manage.py createsuperuser
+- username : admin
+- password : Bossboss156
+
+- toujours actualiser le serveur après modifications avec la commande : python manage.py runserver
