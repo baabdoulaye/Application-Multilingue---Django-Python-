@@ -12,7 +12,6 @@
 - url pour accéder à l'admin : http://127.0.0.1:8000/admin
 ----------------------------------- CREER LE MOT DE PASSE ET LE NOM DE L'ADMIN ----------------------------------------
 - pour créer un admin : python manage.py createsuperuser
-- username : admin
-- password : Bossboss156
+
 
 - toujours actualiser le serveur après modifications avec la commande : python manage.py runserver
